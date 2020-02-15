@@ -15,7 +15,7 @@ class Song
     @@all
   end
 
-  def artist=(name)
+  def artist_name=(name)
     if artist.class == Artist
       @artist = artist
     else

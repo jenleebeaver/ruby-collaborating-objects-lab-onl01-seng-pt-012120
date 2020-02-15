@@ -28,7 +28,6 @@ class Song
     song = self.new(split_name[1])
     song.artist = split_name[0]
     song
-
   end
 
 end

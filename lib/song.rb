@@ -23,7 +23,7 @@ class Song
     song = self.new(split_name[1])
     song.artist = artist_name(split_name[0])
 
-    
+
   end
 
 end

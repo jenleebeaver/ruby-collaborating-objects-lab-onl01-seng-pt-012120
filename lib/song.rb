@@ -19,7 +19,7 @@ class Song
     if name.class == Artist
       @artist = artist
     else
-
+      @artist.find_or_create_by_name(name)
     end
     Artist.find_or_create_by_name(name)
   end
